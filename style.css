@@ -17,7 +17,7 @@ body {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 150%;
+  height: 170%;
   overflow: auto;
 }
 
@@ -101,12 +101,6 @@ nav a {
   font-size: 3rem;
 }
 
-.about-me-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto; /* Centers the image */
-}
 main p {
   margin: 20px 0; /* Adds some spacing around the paragraph */
   font-size: 0.9rem; /* Adjust the font size as needed */
@@ -117,14 +111,7 @@ main p {
   margin-bottom: 30px;
   
 }
-.about-me-image {
-  max-width: 20%;
-  height: auto;
-  display: block;
-  margin: 0 auto 20px; /* Centers the image and adds some space below it */
-  width: 30%; /* Adjust this value to control the size of the image */
-  border-radius: 50%; /* Makes the image appear as an oval */
-}
+
 .about-page {
   background: radial-gradient(circle at top, #424242, #eceff1 80%);
   display: flex;
